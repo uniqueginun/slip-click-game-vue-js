@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-gray-100 w-1/2 mt-6 rounded shadow">
+  <div class="bg-red-100 w-1/2 md:w-11/12 sm:w-11/12 xl:w-1/2 mt-6 rounded shadow">
     <h1 class="mb-6 pt-6 mx-auto font-bold text-center">Make the right level choice</h1>
     <div class="mx-auto max-w-sm text-center flex flex-wrap justify-center">
       <div class="flex items-center mr-4 mb-4">
-        <input id="radio1" type="radio" name="radio" class="hidden" v-model="level" value="1500" />
+        <input id="radio1" type="radio" name="radio" class="hidden" v-model="level" value="1000" />
         <label for="radio1" class="flex items-center cursor-pointer">
           <span class="w-4 h-4 inline-block mr-1 border border-grey"></span>
           Easy
@@ -11,7 +11,7 @@
       </div>
 
       <div class="flex items-center mr-4 mb-4">
-        <input id="radio2" type="radio" name="radio" class="hidden" v-model="level" value="1000" />
+        <input id="radio2" type="radio" name="radio" class="hidden" v-model="level" value="700" />
         <label for="radio2" class="flex items-center cursor-pointer">
           <span class="w-4 h-4 inline-block mr-1 border border-grey"></span>
           Medium
@@ -39,7 +39,7 @@
 export default {
   data() {
     return {
-      level: "1000"
+      level: "700"
     };
   },
   methods: {

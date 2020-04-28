@@ -7,7 +7,8 @@ Vue.config.productionTip = false;
 Vue.use(Toasted, {
   theme: "bubble",
   position: "bottom-left",
-  duration: 5000
+  duration: 5000,
+  iconPack: "fontawesome"
 });
 
 new Vue({

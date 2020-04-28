@@ -10,9 +10,6 @@ export default {
   name: "App",
   components: {
     Game
-  },
-  mounted() {
-    this.$toasted.show("hello billo");
   }
 };
 </script>
