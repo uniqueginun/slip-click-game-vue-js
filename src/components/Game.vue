@@ -2,10 +2,7 @@
   <div class="pt-8 bg-gray-900 w-full h-full flex justify-start flex-col items-center">
     <h1 class="font-bold text-gray-300 text-3xl">Slip Click Vue Game</h1>
     <LevelSelection v-if="status===0" @startGame="startGame" />
-    <div
-      v-else-if="status===1"
-      class="pt-8 flex flex-wrap w-1/2 md:w-11/12 sm:w-11/12 xl:w-1/2 mt-6"
-    >
+    <div v-else-if="status===1" class="pt-8 flex flex-wrap w-11/12 md:w-1/2 mt-6 justify-center">
       <Apple
         @userSelected="userClick"
         v-for="(apple, index) in fruitsArray"

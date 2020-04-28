@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-red-100 w-1/2 md:w-11/12 sm:w-11/12 xl:w-1/2 mt-6 rounded shadow">
+  <div class="bg-red-100 w-11/12 md:w-1/2 mt-6 rounded shadow">
     <h1 class="mb-6 pt-6 mx-auto font-bold text-center">Make the right level choice</h1>
     <div class="mx-auto max-w-sm text-center flex flex-wrap justify-center">
       <div class="flex items-center mr-4 mb-4">
